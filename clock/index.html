@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Clock - Multiple Time Zones</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Digital Clock - Multiple Time Zones</h1>
+        
+        <div class="clock-grid" id="clockGrid">
+            <!-- Clocks will be dynamically generated here -->
+        </div>
+        
+        <div class="controls">
+            <label for="timezoneSelect">Add Time Zone:</label>
+            <select id="timezoneSelect">
+                <option value="">Select a timezone...</option>
+            </select>
+            <button id="addBtn">Add</button>
+            <button id="resetBtn">Reset to Default</button>
+        </div>
+        
+        <div class="timezone-list">
+            <h3>Current Time Zones:</h3>
+            <ul id="timezoneList"></ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
